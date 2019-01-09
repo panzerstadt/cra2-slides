@@ -66,8 +66,6 @@ class TemplateWrapper extends Component {
   render() {
     const { location, children } = this.props;
 
-    console.log(location);
-
     if (this.state.change) {
       return <Redirect push to={`/${this.state.page}/`} />;
     }

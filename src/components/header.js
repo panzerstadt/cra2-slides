@@ -10,7 +10,7 @@ import logo from "../logo.svg";
 export default ({ labels, links }) => (
   <header className={styles.header}>
     <img src={logo} className={styles.logo} alt="logo" />
-    <Time format="HH:mm:ss" />
+    {/* <Time format="HH:mm:ss" /> */}
     <div>
       {links.map((v, i) => (
         <Link key={i} to={v}>
