@@ -8,8 +8,9 @@ export default ({ stuff }) => {
     <div>
       <p>time to add that fancy CES glowy thing here!</p>
       <PopulateShape
+        ShapeSrc={logo}
         ShapeComponent={Logo} // svg viewbox h and w
-        PixelComponent={Logo}
+        PixelComponent={Logo} // replace with other SVG
       />
     </div>
   );
